@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body {line-height:1;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+nav ul { list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+a {margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {background-color:#ff9;color:#000; font-style:italic;font-weight:bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted;cursor:help;}
+table { border-collapse:collapse;border-spacing:0;}
+hr {display:block; height:1px; border:0;   border-top:1px solid #cccccc; margin:1em 0;padding:0;}
+input, select { vertical-align:middle;}
+a {outline: none;}
+
+/* base
+--------------------------------------------------------------*/
+html {
+}
+body {
+	background:#000;
+	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+#wrap {
+	max-width:640px;
+	position:relative;
+	margin:0 auto;
+	width:640px;
+}
+#content {
+	position:relative;
+	z-index:500;
+}
+#sammy {
+	position:absolute;
+	left:0;
+	top:0;
+	width:14%;
+	display:block;
+	z-index:1050;
+}
+#social {
+	position:relative;
+/*	display:none; */
+	width:600px;
+	padding-left:40px;
+	margin:20px auto;
+	clear:both;
+	overflow:hidden;
+}
+#social ul{
+	width:100%;
+	list-style-type:none;
+	margin:0 auto;
+	clear:both;
+}
+#social ul li{
+	width:50%;
+	text-align:center;
+	float:left;
+	padding:0 0 0 0;
+}
+#gnavi {
+	width:100%;
+}
+#gnavi ul {
+	width:100%;
+}
+#gnavi ul li{
+	width:50%;
+	float:left;
+	list-style-type:none;
+}
+#gnavi ul li a{
+	display:block;
+}
+img {
+	width:100%;
+}
+#social-fb span{
+	padding-right:20px;
+	width:300px !important;
+}
+#social iframe{
+	width:260px !important;
+	height:40px !important;
+}
+
+/* sub common */
+header {
+	width:100%;
+	max-width:640px;
+	position:fixed;
+	z-index:1000;
+}
+#head-contents {
+	position:relative;
+	width:100%;
+	z-index:1000;
+}
+#head-vover {
+	position:relative;
+	width:100%;
+	display:block;
+	overflow:hidden;
+	z-index:1020;
+}
+#sub header a#logo{
+	display:block;
+	width:40%;
+	overflow:hidden;
+	position:absolute;
+	z-index:1040;
+}
+#sub #gnavi {
+	width:100%;
+	max-width:640px;
+	background:url(../images/common/navi_bg.png?ver=2) no-repeat left bottom;	
+	background-size:100% auto;
+	padding-bottom:8%;
+	padding-top:13%;
+	top:-270%; 
+/*	top:-365px; */
+	position:absolute;
+	z-index:1010;
+}
+#navi-ctrl {
+	position:absolute;
+	margin-left:50%;
+	top:0;
+	width:50%;
+	z-index:1030;
+}
+#bans {
+	list-style-type:none;
+	padding:5px 0 0;
+}
+#bans li{
+	margin-bottom:10px;
+}
+

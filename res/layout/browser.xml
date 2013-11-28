@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </WebView>
+
+    <net.nend.android.NendAdView
+      	android:id="@+id/nend"
+       	android:layout_width="320dp"
+       	android:layout_height="50dp"
+		android:layout_gravity="center_horizontal"
+       	NendApiKey="c5cb8bc474345961c6e7a9778c947957ed8e1e4f"
+       	NendSpotId="3174" />
+    
+</LinearLayout>
